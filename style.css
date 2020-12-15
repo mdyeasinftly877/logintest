@@ -1,0 +1,197 @@
+*{
+    background-image: url(ftphoto-1562813733-b31f71025d54.jpg);
+    background-size: cover;
+    background-position: right top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+
+
+.full-menu{
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    border: -5px solid rgba(255, 255, 255, 0.596);
+    border-radius: 78px 78px;
+    margin-top: 90px;
+    margin-left: 65px;
+    box-shadow: 1px 1px 23px rgba(17, 219, 255, 0.473);
+    
+}
+
+form{
+    margin-top: 95px;
+    text-align: center;
+}
+.this-log h1{
+    border-bottom: 5px solid  rgba(93, 245, 88, 0.705);
+    color: white;
+    display: inline-block;
+    padding: 13px 0;
+    font-family: sans-serif;
+}
+
+
+.this-input i{
+    width: 29px;
+    color: white;
+}
+
+.this-input input{
+    border: 1px solid rgb(12, 163, 156);
+    border-radius: 10px;
+    padding: 4px 10px;
+    color: white;
+    outline: none;
+    text-align: center;
+}
+
+
+.this-bottom button{
+      color: white;
+      font-size: 17px;
+      padding: 4px 16px;
+      border-radius: 10px;
+    border: 1px solid rgb(241, 5, 5);
+    outline: none;
+    margin-left: 18px;
+}
+
+.this-input input:hover{
+    border: 1px solid rgb(77, 230, 85);
+    border-radius: 10px;
+    padding: 8px 20px;
+    transition: .5s;
+    box-shadow: 1px 1px 23px rgba(77, 230, 85, 0.377);
+}
+
+.this-bottom button:hover{
+    padding: 4px 28px;
+    border: 1px solid rgba(255, 5, 5, 0.568);
+    transition: .4s;
+    box-shadow: 1px 1px 23px rgba(255, 5, 5, 0.568);
+    background:  rgba(255, 5, 5, 0.568);
+}
+
+
+.another .this-p1{
+    margin-left: 168px;
+    color: white;
+   
+}
+
+
+.this-h11{
+   
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.877);
+    position: relative;
+    left: 704px;
+    bottom: 426px;
+}
+
+.this-h11 span{
+    animation: animate 2s linear infinite;
+}
+
+.this-h11 span:nth-child(1)
+{
+               animation-delay: 0s;
+}
+
+.this-h11 span:nth-child(2)
+{
+               animation-delay: 0.25s;
+}
+
+.this-h11 span:nth-child(3)
+{
+               animation-delay: 0.5s;
+}
+
+.this-h11 span:nth-child(4)
+{
+               animation-delay: 0.75s;
+}
+
+.this-h11 span:nth-child(5)
+{
+               animation-delay: 1s;
+}
+
+.this-h11 span:nth-child(6)
+{
+               animation-delay: 1.25s;
+}
+
+@keyframes animate
+{
+    0%,100%
+    {
+             color: rgb(35, 172, 172);
+             filter: blur(2px);
+             text-shadow: 0 0 10px #00b3ff,
+                         0 0 20px #00b3ff,
+                         0 0 40px #00b3ff,
+                         0 0 60px #00b3ff,
+                          0 0 80px #00b3ff,
+                         0 0 120px #00b3ff;
+
+    }
+    5%,95%
+    {
+             color: rgb(255, 249, 249);
+             filter: blur(0px);
+             text-shadow: none,
+    }
+}
+
+.this-p2{
+    color: rgba(255, 255, 255, 0.945);
+    position: relative;
+    left: 683px;
+    bottom: 502px;
+    display: inline-block;
+}
+
+
+.this-p2 span{
+    animation: animate 2s linear infinite;
+}
+
+
+.this-p22{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 358px;
+    bottom: 360px;
+    display: inline-block;
+}
+
+
+.this-p22 span{
+    animation: animate 2s linear infinite;
+}
+
+
+.this-p222{
+    color: rgba(255, 255, 255, 0.945);
+    position: relative;
+    left: 83px;
+    bottom: 360px;
+    display: inline-block;
+}
+
+
+
+.this-p222 span{
+    animation: animate 3s linear infinite;
+}
+
+
+.this-p222 span:nth-child(1)
+{
+               animation-delay: 2s;
+}
+
